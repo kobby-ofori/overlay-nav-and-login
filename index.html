@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+          <button class="btn1" id="btn1">Sign-In</button>
+        </div>
+      </div>
+      <span class="span-open" onclick="openNav()">&#9776; Menu</span>
+    </header>
+    <div class="container" id="container">
+      <div class="user-details">
+        <span class="close-icon" id="close-icon">X</span>
+        <div class="user-input">
+          <input type="email" value="" id="input-email" placeholder="email" required>
+          <br><br>
+          <input type="password" value="" id="input-password" placeholder="password" required>
+        </div>
+        <div class="btn">
+          <button class="sign-in" id="sign-in">Log-in</button>
+          <button class="sign-up" id="sign-up">Sign-up</button>
+        </div>
+        <!-- <h3>Log-In with</h3>
+        <hr>
+        <div class="icons" id="icons">
+          <a href="" class="login-links" id="login-links">
+            <img src="google.png" class="icon-img">
+          </a>
+          <a href="" class="login-links" id="login-links">
+            <img src="facebook.png" class="icon-img">
+          </a>
+          <a href="" class="login-links" id="login-links">
+            <img src="linkedin.png" class="icon-img">
+          </a>
+        </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
